@@ -105,7 +105,7 @@ print("Number of training samples: ", x_train.shape)
 print("Number of testing samples: ", x_test.shape)
 
 # generate MLP classifier model
-optimizer = "adam"
+optimizer = "lbfgs"
 hidden_layers = (300, 300, 100)
 
 if optimizer == "lbfgs":
